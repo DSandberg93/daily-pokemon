@@ -6,3 +6,7 @@
 .data-container {
   text-align: left;
 }
+
+.data-span {
+  text-transform: capitalize;
+}

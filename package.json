@@ -2,6 +2,7 @@
   "name": "daily-pokemon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://webdsandberg.com/daily-pokemon/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
@@ -9,6 +10,8 @@
     "react-scripts": "3.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
