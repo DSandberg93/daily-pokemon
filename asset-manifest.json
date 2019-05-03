@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/daily-pokemon/static/css/main.5710b180.chunk.css",
-    "main.js": "/daily-pokemon/static/js/main.90e14946.chunk.js",
-    "main.js.map": "/daily-pokemon/static/js/main.90e14946.chunk.js.map",
+    "main.css": "/daily-pokemon/static/css/main.5afbb4d7.chunk.css",
+    "main.js": "/daily-pokemon/static/js/main.65050ce4.chunk.js",
+    "main.js.map": "/daily-pokemon/static/js/main.65050ce4.chunk.js.map",
     "runtime~main.js": "/daily-pokemon/static/js/runtime~main.af3f288d.js",
     "runtime~main.js.map": "/daily-pokemon/static/js/runtime~main.af3f288d.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/daily-pokemon/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.f3d6c536.chunk.js": "/daily-pokemon/static/js/2.f3d6c536.chunk.js",
-    "static/js/2.f3d6c536.chunk.js.map": "/daily-pokemon/static/js/2.f3d6c536.chunk.js.map",
+    "static/js/2.676b93aa.chunk.js": "/daily-pokemon/static/js/2.676b93aa.chunk.js",
+    "static/js/2.676b93aa.chunk.js.map": "/daily-pokemon/static/js/2.676b93aa.chunk.js.map",
     "index.html": "/daily-pokemon/index.html",
-    "precache-manifest.10fec0ff7330fec10d617d446410d9fe.js": "/daily-pokemon/precache-manifest.10fec0ff7330fec10d617d446410d9fe.js",
+    "precache-manifest.c3674d14dec72890c8aa0f605761810c.js": "/daily-pokemon/precache-manifest.c3674d14dec72890c8aa0f605761810c.js",
     "service-worker.js": "/daily-pokemon/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/daily-pokemon/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.5710b180.chunk.css.map": "/daily-pokemon/static/css/main.5710b180.chunk.css.map"
+    "static/css/main.5afbb4d7.chunk.css.map": "/daily-pokemon/static/css/main.5afbb4d7.chunk.css.map"
   }
 }
