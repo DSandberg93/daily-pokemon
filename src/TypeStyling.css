@@ -1,0 +1,1333 @@
+/* Pokemon type styling */
+
+/* Normal typing combinations */
+
+.normal {
+  background: rgb(168, 168, 120);
+}
+
+.normal-fire {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(240, 128, 48) 75%);
+}
+
+.normal-figthing {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(192, 48, 40) 75%);
+}
+
+.normal-water {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(104, 144, 240) 75%);
+}
+
+.normal-flying {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(168, 144, 240) 75%);
+}
+
+.normal-grass {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(120, 200, 80) 75%);
+}
+
+.normal-poison {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(160, 64, 160) 75%);
+}
+
+.normal-electric {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(248, 208, 48) 75%);
+}
+
+.normal-ground {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(224, 192, 104) 75%);
+}
+
+.normal-psychic {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(248, 88, 136) 75%);
+}
+
+.normal-rock {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(168, 168, 120) 75%);
+}
+
+.normal-ice {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(152, 216, 216) 75%);
+}
+
+.normal-bug {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(168, 184, 32) 75%);
+}
+
+.normal-dragon {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(112, 56, 248) 75%);
+}
+
+.normal-ghost {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(112, 88, 152) 75%);
+}
+
+.normal-dark {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(112, 88, 72) 75%);
+}
+
+.normal-steel {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(184, 184, 208) 75%);
+}
+
+.normal-fairy {
+  background: radial-gradient(rgb(168, 168, 120), rgb(168, 168, 120) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Fire typing combinations */
+
+.fire {
+  background: rgb(240, 128, 48);
+}
+
+.fire-normal {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(168, 168, 120) 75%);
+}
+
+.fire-figthing {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(192, 48, 40) 75%);
+}
+
+.fire-water {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(104, 144, 240) 75%);
+}
+
+.fire-flying {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(168, 144, 240) 75%);
+}
+
+.fire-grass {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(120, 200, 80) 75%);
+}
+
+.fire-poison {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(160, 64, 160) 75%);
+}
+
+.fire-electric {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(248, 208, 48) 75%);
+}
+
+.fire-ground {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(224, 192, 104) 75%);
+}
+
+.fire-psychic {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(248, 88, 136) 75%);
+}
+
+.fire-rock {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(168, 168, 120) 75%);
+}
+
+.fire-ice {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(152, 216, 216) 75%);
+}
+
+.fire-bug {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(168, 184, 32) 75%);
+}
+
+.fire-dragon {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(112, 56, 248) 75%);
+}
+
+.fire-ghost {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(112, 88, 152) 75%);
+}
+
+.fire-dark {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(112, 88, 72) 75%);
+}
+
+.fire-steel {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(184, 184, 208) 75%);
+}
+
+.fire-fairy {
+  background: radial-gradient(rgb(240, 128, 48), rgb(240, 128, 48) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Fighting typing combinations */
+
+.fighting {
+  background: rgb(192, 48, 40);
+}
+
+.fighting-normal {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(168, 168, 120) 75%);
+}
+
+.fighting-fire {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(240, 128, 48) 75%);
+}
+
+.fighting-water {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(104, 144, 240) 75%);
+}
+
+.fighting-flying {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(168, 144, 240) 75%);
+}
+
+.fighting-grass {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(120, 200, 80) 75%);
+}
+
+.fighting-poison {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(160, 64, 160) 75%);
+}
+
+.fighting-electric {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(248, 208, 48) 75%);
+}
+
+.fighting-ground {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(224, 192, 104) 75%);
+}
+
+.fighting-psychic {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(248, 88, 136) 75%);
+}
+
+.fighting-rock {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(168, 168, 120) 75%);
+}
+
+.fighting-ice {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(152, 216, 216) 75%);
+}
+
+.fighting-bug {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(168, 184, 32) 75%);
+}
+
+.fighting-dragon {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(112, 56, 248) 75%);
+}
+
+.fighting-ghost {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(112, 88, 152) 75%);
+}
+
+.fighting-dark {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(112, 88, 72) 75%);
+}
+
+.fighting-steel {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(184, 184, 208) 75%);
+}
+
+.fighting-fairy {
+  background: radial-gradient(rgb(192, 48, 40), rgb(192, 48, 40) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Water typing combinations */
+
+.water {
+  background: rgb(104, 144, 240);
+}
+
+.water-normal {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(168, 168, 120) 75%);
+}
+
+.water-fire {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(240, 128, 48) 75%);
+}
+
+.water-fighting {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(192, 48, 40) 75%);
+}
+
+.water-flying {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(168, 144, 240) 75%);
+}
+
+.water-grass {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(120, 200, 80) 75%);
+}
+
+.water-poison {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(160, 64, 160) 75%);
+}
+
+.water-electric {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(248, 208, 48) 75%);
+}
+
+.water-ground {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(224, 192, 104) 75%);
+}
+
+.water-psychic {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(248, 88, 136) 75%);
+}
+
+.water-rock {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(168, 168, 120) 75%);
+}
+
+.water-ice {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(152, 216, 216) 75%);
+}
+
+.water-bug {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(168, 184, 32) 75%);
+}
+
+.water-dragon {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(112, 56, 248) 75%);
+}
+
+.water-ghost {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(112, 88, 152) 75%);
+}
+
+.water-dark {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(112, 88, 72) 75%);
+}
+
+.water-steel {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(184, 184, 208) 75%);
+}
+
+.water-fairy {
+  background: radial-gradient(rgb(104, 144, 240), rgb(104, 144, 240) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Flying typing combinations */
+
+.flying {
+  background: rgb(168, 144, 240);
+}
+
+.flying-normal {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(168, 168, 120) 75%);
+}
+
+.flying-fire {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(240, 128, 48) 75%);
+}
+
+.flying-fighting {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(192, 48, 40) 75%);
+}
+
+.flying-water {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(104, 144, 240) 75%);
+}
+
+.flying-grass {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(120, 200, 80) 75%);
+}
+
+.flying-poison {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(160, 64, 160) 75%);
+}
+
+.flying-electric {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(248, 208, 48) 75%);
+}
+
+.flying-ground {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(224, 192, 104) 75%);
+}
+
+.flying-psychic {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(248, 88, 136) 75%);
+}
+
+.flying-rock {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(168, 168, 120) 75%);
+}
+
+.flying-ice {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(152, 216, 216) 75%);
+}
+
+.flying-bug {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(168, 184, 32) 75%);
+}
+
+.flying-dragon {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(112, 56, 248) 75%);
+}
+
+.flying-ghost {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(112, 88, 152) 75%);
+}
+
+.flying-dark {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(112, 88, 72) 75%);
+}
+
+.flying-steel {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(184, 184, 208) 75%);
+}
+
+.flying-fairy {
+  background: radial-gradient(rgb(168, 144, 240), rgb(168, 144, 240) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Grass typing combinations */
+
+.grass {
+  background: rgb(120, 200, 80);
+}
+
+.grass-normal {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(168, 168, 120) 75%);
+}
+
+.grass-fire {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(240, 128, 48) 75%);
+}
+
+.grass-figthing {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(192, 48, 40) 75%);
+}
+
+.grass-water {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(104, 144, 240) 75%);
+}
+
+.grass-flying {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(168, 144, 240) 75%);
+}
+
+.grass-poison {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(160, 64, 160) 75%);
+}
+
+.grass-electric {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(248, 208, 48) 75%);
+}
+
+.grass-ground {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(224, 192, 104) 75%);
+}
+
+.grass-psychic {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(248, 88, 136) 75%);
+}
+
+.grass-rock {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(168, 168, 120) 75%);
+}
+
+.grass-ice {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(152, 216, 216) 75%);
+}
+
+.grass-bug {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(168, 184, 32) 75%);
+}
+
+.grass-dragon {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(112, 56, 248) 75%);
+}
+
+.grass-ghost {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(112, 88, 152) 75%);
+}
+
+.grass-dark {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(112, 88, 72) 75%);
+}
+
+.grass-steel {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(184, 184, 208) 75%);
+}
+
+.grass-fairy {
+  background: radial-gradient(rgb(120, 200, 80), rgb(120, 200, 80) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Poison typing combinations */
+
+.poison {
+  background: rgb(160, 64, 160);
+}
+
+.poison-normal {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(168, 168, 120) 75%);
+}
+
+.poison-fire {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(240, 128, 48) 75%);
+}
+
+.poison-figthing {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(192, 48, 40) 75%);
+}
+
+.poison-water {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(104, 144, 240) 75%);
+}
+
+.poison-flying {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(168, 144, 240) 75%);
+}
+
+.poison-grass {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(120, 200, 80) 75%);
+}
+
+.poison-electric {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(248, 208, 48) 75%);
+}
+
+.poison-ground {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(224, 192, 104) 75%);
+}
+
+.poison-psychic {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(248, 88, 136) 75%);
+}
+
+.poison-rock {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(168, 168, 120) 75%);
+}
+
+.poison-ice {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(152, 216, 216) 75%);
+}
+
+.poison-bug {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(168, 184, 32) 75%);
+}
+
+.poison-dragon {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(112, 56, 248) 75%);
+}
+
+.poison-ghost {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(112, 88, 152) 75%);
+}
+
+.poison-dark {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(112, 88, 72) 75%);
+}
+
+.poison-steel {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(184, 184, 208) 75%);
+}
+
+.poison-fairy {
+  background: radial-gradient(rgb(160, 64, 160), rgb(160, 64, 160) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Electric typing combinations */
+
+.electric {
+  background: rgb(248, 208, 48);
+}
+
+.electric-normal {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(168, 168, 120) 75%);
+}
+
+.electric-fire {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(240, 128, 48) 75%);
+}
+
+.electric-figthing {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(192, 48, 40) 75%);
+}
+
+.electric-water {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(104, 144, 240) 75%);
+}
+
+.electric-flying {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(168, 144, 240) 75%);
+}
+
+.electric-grass {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(120, 200, 80) 75%);
+}
+
+.electric-poison {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(160, 64, 160) 75%);
+}
+
+.electric-ground {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(224, 192, 104) 75%);
+}
+
+.electric-psychic {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(248, 88, 136) 75%);
+}
+
+.electric-rock {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(168, 168, 120) 75%);
+}
+
+.electric-ice {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(152, 216, 216) 75%);
+}
+
+.electric-bug {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(168, 184, 32) 75%);
+}
+
+.electric-dragon {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(112, 56, 248) 75%);
+}
+
+.electric-ghost {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(112, 88, 152) 75%);
+}
+
+.electric-dark {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(112, 88, 72) 75%);
+}
+
+.electric-steel {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(184, 184, 208) 75%);
+}
+
+.electric-fairy {
+  background: radial-gradient(rgb(248, 208, 48), rgb(248, 208, 48) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Ground typing combinations */
+
+.ground {
+  background: rgb(224, 192, 104);
+}
+
+.ground-normal {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(168, 168, 120) 75%);
+}
+
+.ground-fire {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(240, 128, 48) 75%);
+}
+
+.ground-figthing {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(192, 48, 40) 75%);
+}
+
+.ground-water {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(104, 144, 240) 75%);
+}
+
+.ground-flying {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(168, 144, 240) 75%);
+}
+
+.ground-grass {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(120, 200, 80) 75%);
+}
+
+.ground-poison {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(160, 64, 160) 75%);
+}
+
+.ground-electric {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(248, 208, 48) 75%);
+}
+
+.ground-psychic {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(248, 88, 136) 75%);
+}
+
+.ground-rock {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(168, 168, 120) 75%);
+}
+
+.ground-ice {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(152, 216, 216) 75%);
+}
+
+.ground-bug {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(168, 184, 32) 75%);
+}
+
+.ground-dragon {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(112, 56, 248) 75%);
+}
+
+.ground-ghost {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(112, 88, 152) 75%);
+}
+
+.ground-dark {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(112, 88, 72) 75%);
+}
+
+.ground-steel {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(184, 184, 208) 75%);
+}
+
+.ground-fairy {
+  background: radial-gradient(rgb(224, 192, 104), rgb(224, 192, 104) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Psychic typing combinations */
+
+.psychic {
+  background: rgb(248, 88, 136);
+}
+
+.psychic-normal {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(168, 168, 120) 75%);
+}
+
+.psychic-fire {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(240, 128, 48) 75%);
+}
+
+.psychic-figthing {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(192, 48, 40) 75%);
+}
+
+.psychic-water {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(104, 144, 240) 75%);
+}
+
+.psychic-flying {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(168, 144, 240) 75%);
+}
+
+.psychic-grass {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(120, 200, 80) 75%);
+}
+
+.psychic-poison {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(160, 64, 160) 75%);
+}
+
+.psychic-electric {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(248, 208, 48) 75%);
+}
+
+.psychic-ground {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(224, 192, 104) 75%);
+}
+
+.psychic-rock {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(168, 168, 120) 75%);
+}
+
+.psychic-ice {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(152, 216, 216) 75%);
+}
+
+.psychic-bug {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(168, 184, 32) 75%);
+}
+
+.psychic-dragon {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(112, 56, 248) 75%);
+}
+
+.psychic-ghost {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(112, 88, 152) 75%);
+}
+
+.psychic-dark {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(112, 88, 72) 75%);
+}
+
+.psychic-steel {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(184, 184, 208) 75%);
+}
+
+.psychic-fairy {
+  background: radial-gradient(rgb(248, 88, 136), rgb(248, 88, 136) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Rock typing combinations */
+
+.rock {
+  background: rgb(184, 160, 56);
+}
+
+.rock-normal {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(168, 168, 120) 75%);
+}
+
+.rock-fire {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(240, 128, 48) 75%);
+}
+
+.rock-figthing {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(192, 48, 40) 75%);
+}
+
+.rock-water {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(104, 144, 240) 75%);
+}
+
+.rock-flying {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(168, 144, 240) 75%);
+}
+
+.rock-grass {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(120, 200, 80) 75%);
+}
+
+.rock-poison {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(160, 64, 160) 75%);
+}
+
+.rock-electric {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(248, 208, 48) 75%);
+}
+
+.rock-ground {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(248, 88, 136) 75%);
+}
+
+.rock-psychic {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(168, 168, 120) 75%);
+}
+
+.rock-ice {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(152, 216, 216) 75%);
+}
+
+.rock-bug {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(168, 184, 32) 75%);
+}
+
+.rock-dragon {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(112, 56, 248) 75%);
+}
+
+.rock-ghost {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(112, 88, 152) 75%);
+}
+
+.rock-dark {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(112, 88, 72) 75%);
+}
+
+.rock-steel {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(184, 184, 208) 75%);
+}
+
+.rock-fairy {
+  background: radial-gradient(rgb(184, 160, 56), rgb(184, 160, 56) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Ice typing combinations */
+
+.ice {
+  background: rgb(152, 216, 216);
+}
+
+.ice-normal {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(168, 168, 120) 75%);
+}
+
+.ice-fire {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(240, 128, 48) 75%);
+}
+
+.ice-figthing {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(192, 48, 40) 75%);
+}
+
+.ice-water {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(104, 144, 240) 75%);
+}
+
+.ice-flying {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(168, 144, 240) 75%);
+}
+
+.ice-grass {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(120, 200, 80) 75%);
+}
+
+.ice-poison {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(160, 64, 160) 75%);
+}
+
+.ice-electric {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(248, 208, 48) 75%);
+}
+
+.ice-ground {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(248, 88, 136) 75%);
+}
+
+.ice-psychic {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(168, 168, 120) 75%);
+}
+
+.ice-rock {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(184, 160, 56) 75%);
+}
+
+.ice-bug {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(168, 184, 32) 75%);
+}
+
+.ice-dragon {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(112, 56, 248) 75%);
+}
+
+.ice-ghost {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(112, 88, 152) 75%);
+}
+
+.ice-dark {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(112, 88, 72) 75%);
+}
+
+.ice-steel {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(184, 184, 208) 75%);
+}
+
+.ice-fairy {
+  background: radial-gradient(rgb(152, 216, 216), rgb(152, 216, 216) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Bug typing combinations */
+
+.bug {
+  background: rgb(168, 184, 32);
+}
+
+.bug-normal {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(168, 168, 120) 75%);
+}
+
+.bug-fire {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(240, 128, 48) 75%);
+}
+
+.bug-figthing {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(192, 48, 40) 75%);
+}
+
+.bug-water {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(104, 144, 240) 75%);
+}
+
+.bug-flying {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(168, 144, 240) 75%);
+}
+
+.bug-grass {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(120, 200, 80) 75%);
+}
+
+.bug-poison {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(160, 64, 160) 75%);
+}
+
+.bug-electric {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(248, 208, 48) 75%);
+}
+
+.bug-ground {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(248, 88, 136) 75%);
+}
+
+.bug-psychic {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(168, 168, 120) 75%);
+}
+
+.bug-rock {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(184, 160, 56) 75%);
+}
+
+.bug-ice {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(152, 216, 216) 75%);
+}
+
+.bug-dragon {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(112, 56, 248) 75%);
+}
+
+.bug-ghost {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(112, 88, 152) 75%);
+}
+
+.bug-dark {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(112, 88, 72) 75%);
+}
+
+.bug-steel {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(184, 184, 208) 75%);
+}
+
+.bug-fairy {
+  background: radial-gradient(rgb(168, 184, 32), rgb(168, 184, 32) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Dragon typing combinations */
+
+.dragon {
+  background: rgb(112, 56, 248);
+}
+
+.dragon-normal {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(168, 168, 120) 75%);
+}
+
+.dragon-fire {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(240, 128, 48) 75%);
+}
+
+.dragon-figthing {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(192, 48, 40) 75%);
+}
+
+.dragon-water {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(104, 144, 240) 75%);
+}
+
+.dragon-flying {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(168, 144, 240) 75%);
+}
+
+.dragon-grass {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(120, 200, 80) 75%);
+}
+
+.dragon-poison {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(160, 64, 160) 75%);
+}
+
+.dragon-electric {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(248, 208, 48) 75%);
+}
+
+.dragon-ground {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(248, 88, 136) 75%);
+}
+
+.dragon-psychic {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(168, 168, 120) 75%);
+}
+
+.dragon-ice {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(184, 160, 56) 75%);
+}
+
+.dragon-rock {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(152, 216, 216) 75%);
+}
+
+.dragon-bug {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(168, 184, 32) 75%);
+}
+
+.dragon-ghost {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(112, 88, 152) 75%);
+}
+
+.dragon-dark {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(112, 88, 72) 75%);
+}
+
+.dragon-steel {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(184, 184, 208) 75%);
+}
+
+.dragon-fairy {
+  background: radial-gradient(rgb(112, 56, 248), rgb(112, 56, 248) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Ghost typing combinations */
+
+.ghost {
+  background: rgb(112, 88, 152);
+}
+
+.ghost-normal {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(168, 168, 120) 75%);
+}
+
+.ghost-fire {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(240, 128, 48) 75%);
+}
+
+.ghost-figthing {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(192, 48, 40) 75%);
+}
+
+.ghost-water {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(104, 144, 240) 75%);
+}
+
+.ghost-flying {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(168, 144, 240) 75%);
+}
+
+.ghost-grass {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(120, 200, 80) 75%);
+}
+
+.ghost-poison {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(160, 64, 160) 75%);
+}
+
+.ghost-electric {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(248, 208, 48) 75%);
+}
+
+.ghost-ground {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(248, 88, 136) 75%);
+}
+
+.ghost-psychic {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(168, 168, 120) 75%);
+}
+
+.ghost-ice {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(184, 160, 56) 75%);
+}
+
+.ghost-rock {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(152, 216, 216) 75%);
+}
+
+.ghost-bug {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(168, 184, 32) 75%);
+}
+
+.ghost-dragon {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(112, 56, 248) 75%);
+}
+
+.ghost-dark {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(112, 88, 72) 75%);
+}
+
+.ghost-steel {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(184, 184, 208) 75%);
+}
+
+.ghost-fairy {
+  background: radial-gradient(rgb(112, 88, 152), rgb(112, 88, 152) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Dark typing combinations */
+
+.dark {
+  background: rgb(112, 88, 72);
+}
+
+.dark-normal {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(168, 168, 120) 75%);
+}
+
+.dark-fire {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(240, 128, 48) 75%);
+}
+
+.dark-figthing {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(192, 48, 40) 75%);
+}
+
+.dark-water {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(104, 144, 240) 75%);
+}
+
+.dark-flying {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(168, 144, 240) 75%);
+}
+
+.dark-grass {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(120, 200, 80) 75%);
+}
+
+.dark-poison {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(160, 64, 160) 75%);
+}
+
+.dark-electric {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(248, 208, 48) 75%);
+}
+
+.dark-ground {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(248, 88, 136) 75%);
+}
+
+.dark-psychic {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(168, 168, 120) 75%);
+}
+
+.dark-ice {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(184, 160, 56) 75%);
+}
+
+.dark-rock {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(152, 216, 216) 75%);
+}
+
+.dark-bug {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(168, 184, 32) 75%);
+}
+
+.dark-dragon {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(112, 56, 248) 75%);
+}
+
+.dark-ghost {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(112, 88, 152) 75%);
+}
+
+.dark-steel {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(184, 184, 208) 75%);
+}
+
+.dark-fairy {
+  background: radial-gradient(rgb(112, 88, 72), rgb(112, 88, 72) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Steel typing combinations */
+
+.steel {
+  background: rgb(184, 184, 208);
+}
+
+.steel-normal {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(168, 168, 120) 75%);
+}
+
+.steel-fire {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(240, 128, 48) 75%);
+}
+
+.steel-figthing {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(192, 48, 40) 75%);
+}
+
+.steel-water {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(104, 144, 240) 75%);
+}
+
+.steel-flying {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(168, 144, 240) 75%);
+}
+
+.steel-grass {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(120, 200, 80) 75%);
+}
+
+.steel-poison {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(160, 64, 160) 75%);
+}
+
+.steel-electric {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(248, 208, 48) 75%);
+}
+
+.steel-ground {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(248, 88, 136) 75%);
+}
+
+.steel-psychic {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(168, 168, 120) 75%);
+}
+
+.steel-ice {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(184, 160, 56) 75%);
+}
+
+.steel-rock {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(152, 216, 216) 75%);
+}
+
+.steel-bug {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(168, 184, 32) 75%);
+}
+
+.steel-dragon {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(112, 56, 248) 75%);
+}
+
+.steel-ghost {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(112, 88, 152) 75%);
+}
+
+.steel-dark {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(112, 88, 72) 75%);
+}
+
+.steel-fairy {
+  background: radial-gradient(rgb(184, 184, 208), rgb(184, 184, 208) 50%, rgb(238, 153, 172) 75%);
+}
+
+/* Fairy typing combinations */
+
+.fairy {
+  background: rgb(238, 153, 172);
+}
+
+.fairy-normal {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(168, 168, 120) 75%);
+}
+
+.fairy-fire {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(240, 128, 48) 75%);
+}
+
+.fairy-figthing {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(192, 48, 40) 75%);
+}
+
+.fairy-water {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(104, 144, 240) 75%);
+}
+
+.fairy-flying {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(168, 144, 240) 75%);
+}
+
+.fairy-grass {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(120, 200, 80) 75%);
+}
+
+.fairy-poison {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(160, 64, 160) 75%);
+}
+
+.fairy-electric {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(248, 208, 48) 75%);
+}
+
+.fairy-ground {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(248, 88, 136) 75%);
+}
+
+.fairy-psychic {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(168, 168, 120) 75%);
+}
+
+.fairy-ice {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(184, 160, 56) 75%);
+}
+
+.fairy-rock {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(152, 216, 216) 75%);
+}
+
+.fairy-bug {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(168, 184, 32) 75%);
+}
+
+.fairy-dragon {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(112, 56, 248) 75%);
+}
+
+.fairy-ghost {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(112, 88, 152) 75%);
+}
+
+.fairy-dark {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(112, 88, 72) 75%);
+}
+
+.fairy-steel {
+  background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 50%, rgb(184, 184, 208) 75%);
+}

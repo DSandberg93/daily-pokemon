@@ -1,10 +1,13 @@
 .p-image {
   width: 400px;
   height: 400px;
-  background-color: #BBB;
-  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: transform .3s;
+}
+
+.p-image:hover {
+  transform: scale(1.1);
 }

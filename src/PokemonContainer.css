@@ -6,10 +6,16 @@
   justify-content: center;
 }
 
-.row {
-  width: 60%;
+.p-aligner {
+  background-color: #FFF9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
 }
 
-.align-right {
-  align-items: right;
+.row {
+  width: 100%;
 }
