@@ -1,9 +1,10 @@
 import React, { Component, } from 'react';
-import PokemonData from './PokemonData';
-import PokemonImage from './PokemonImage';
+import PokemonData from '../components/PokemonData';
+import PokemonImage from '../components/PokemonImage';
 import './PokemonContainer.css';
 import './TypeStyling.css'
-import pokemonList from './pokemonList.json';
+import pokemonList from '../pokemonList.json';
+import Tilt from 'react-tilt';
 
 
 class PokemonContainer extends Component {
@@ -31,12 +32,27 @@ class PokemonContainer extends Component {
   }
 
   fetchPokemon(number) {
-    return (fetch('https://pokeapi.co/api/v2/pokemon/' + number + '/')
+    let name = 'N/A';
+    let primaryType = 'N/A';
+    let secondaryType = 'N/A';
+    let height = '0';
+    let weight = '0';
+    return(fetch('https://pokeapi.co/api/v2/pokemon/' + number + '/')
       .then(results => {
         return results.json();
       })
       .then(data => {
-        return data;
+        for (let type in data.types) {
+          if (data.types[type].slot === 2) {
+            secondaryType = data.types[type].type.name;
+          } else {
+            primaryType = data.types[type].type.name;
+          }
+        }
+        height = data.height/10;
+        weight = data.weight/10;
+        name = data.name;
+        this.setState({name: name, height: height, weight: weight, secondaryType: secondaryType, primaryType: primaryType});
       })
     )
   }
@@ -70,26 +86,8 @@ class PokemonContainer extends Component {
   }
 
   componentDidMount() {
-    let name = 'N/A';
-    let primaryType = 'N/A';
-    let secondaryType = 'N/A';
-    let height = '0';
-    let weight = '0';
     let pData = this.fetchPokemon(this.state.number);
-    pData.then(data => {
-      for (let type in data.types) {
-        if (data.types[type].slot === 2) {
-          secondaryType = data.types[type].type.name;
-        } else {
-          primaryType = data.types[type].type.name;
-        }
-      }
-      height = data.height/10;
-      weight = data.weight/10;
-      name = data.name;
-      this.setState({name: name, height: height, weight: weight, secondaryType: secondaryType, primaryType: primaryType});
-    })
-    .then(() => {
+    pData.then(() => {
       this.getPrevEvolution(this.state.number);
       this.getNextEvolution(this.state.number);
     });
@@ -98,25 +96,27 @@ class PokemonContainer extends Component {
   render() {
     return(
       <div className={"p-container " + this.state.primaryType + (this.state.secondaryType !== "N/A" ? "-" + this.state.secondaryType : "")}>
-        <div className="p-aligner">
-          <div className="row">
-            <div className="col-md-6">
-              <PokemonImage name={this.state.name} number={this.state.number} />
-            </div>
-            <div className="col-md-6">
-              <PokemonData
-                name={this.state.name}
-                number={this.state.number}
-                primaryType={this.state.primaryType}
-                secondaryType={this.state.secondaryType}
-                previousEvolution={this.state.previousEvolution}
-                nextEvolution={this.state.nextEvolution}
-                height={this.state.height}
-                weight={this.state.weight}
-              />
+        <Tilt options={{ max: 20 }}>
+          <div className="p-aligner">
+            <div className="row">
+              <div className="col-md-6">
+                <PokemonImage name={this.state.name} number={this.state.number} />
+              </div>
+              <div className="col-md-6">
+                <PokemonData
+                  name={this.state.name}
+                  number={this.state.number}
+                  primaryType={this.state.primaryType}
+                  secondaryType={this.state.secondaryType}
+                  previousEvolution={this.state.previousEvolution}
+                  nextEvolution={this.state.nextEvolution}
+                  height={this.state.height}
+                  weight={this.state.weight}
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </Tilt>
       </div>
     );
   }

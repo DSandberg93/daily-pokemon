@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.name-span {
+  text-transform: capitalize;
+  font-size: 3em;
+}
+
+.data-container {
+  text-align: left;
+  font-family: 'Indie Flower', cursive;
+}
+
+.data-span {
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+.p-name {
+  margin: 0;
+}
+
+.data-entry {
+  margin: 5px;
+  font-size: 1.3em;
+}
+
+hr {
+  margin-top: 0;
+}
