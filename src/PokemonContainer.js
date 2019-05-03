@@ -11,8 +11,7 @@ class PokemonContainer extends Component {
     super();
     this.state = {
       name: 'N/A',
-      // number: this.calculatePokemonNumber(pokemonList.initial_date, pokemonList.list),
-      number: 62,
+      number: this.calculatePokemonNumber(pokemonList.initial_date, pokemonList.list),
       primaryType: 'N/A',
       secondaryType: 'N/A',
       previousEvolution: 'N/A',
