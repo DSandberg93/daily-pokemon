@@ -4,7 +4,6 @@ import PokemonImage from '../components/PokemonImage';
 import './PokemonContainer.css';
 import './TypeStyling.css'
 import pokemonList from '../pokemonList.json';
-import Tilt from 'react-tilt';
 
 
 class PokemonContainer extends Component {
@@ -25,7 +24,6 @@ class PokemonContainer extends Component {
   calculatePokemonNumber(initialDate, numberList) {
     let iDate = new Date(Date.UTC(initialDate.year, initialDate.month-1, initialDate.day));
     let cDate = new Date();
-    // let cDate = new Date(2019, 4, 23);
     cDate = new Date(Date.UTC(cDate.getFullYear(), cDate.getMonth(), cDate.getDate()));
     let chosenNumber = numberList[Math.floor((cDate-iDate)/(1000 * 60 * 60 * 24))];
     return (chosenNumber);
@@ -96,27 +94,25 @@ class PokemonContainer extends Component {
   render() {
     return(
       <div className={"p-container " + this.state.primaryType + (this.state.secondaryType !== "N/A" ? "-" + this.state.secondaryType : "")}>
-        <Tilt options={{ max: 20 }}>
-          <div className="p-aligner">
-            <div className="row">
-              <div className="col-md-6">
-                <PokemonImage name={this.state.name} number={this.state.number} />
-              </div>
-              <div className="col-md-6">
-                <PokemonData
-                  name={this.state.name}
-                  number={this.state.number}
-                  primaryType={this.state.primaryType}
-                  secondaryType={this.state.secondaryType}
-                  previousEvolution={this.state.previousEvolution}
-                  nextEvolution={this.state.nextEvolution}
-                  height={this.state.height}
-                  weight={this.state.weight}
-                />
-              </div>
+        <div className="container">
+          <div className="row p-aligner">
+            <div className="col-md-5">
+              <PokemonImage name={this.state.name} number={this.state.number} />
+            </div>
+            <div className="col-md-6 offset-md-1">
+              <PokemonData
+                name={this.state.name}
+                number={this.state.number}
+                primaryType={this.state.primaryType}
+                secondaryType={this.state.secondaryType}
+                previousEvolution={this.state.previousEvolution}
+                nextEvolution={this.state.nextEvolution}
+                height={this.state.height}
+                weight={this.state.weight}
+              />
             </div>
           </div>
-        </Tilt>
+        </div>
       </div>
     );
   }

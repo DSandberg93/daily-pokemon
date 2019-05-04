@@ -1,13 +1,15 @@
-.p-image {
-  width: 400px;
-  height: 400px;
+.p-image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* transition: transform .3s; */
+  height: 100%;
 }
 
-/* .p-image:hover {
-  transform: scale(1.1);
-} */
+.p-image {
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

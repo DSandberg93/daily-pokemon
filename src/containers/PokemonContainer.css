@@ -8,15 +8,15 @@
 
 .p-aligner {
   background-color: #FFF9;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-  width: 1000px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
 }
 
-.row {
-  width: 100%;
+.container {
+  padding: 15px;
 }
+
+/* .row {
+  width: 100%;
+} */
