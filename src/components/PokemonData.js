@@ -14,6 +14,8 @@ const PokemonImage = ({name, number, primaryType, secondaryType, previousEvoluti
       <p className="data-entry">Evolves into: <span className="data-span">{nextEvolution}</span></p>
       <p className="data-entry">Height: <span className="data-span">{height}</span> m</p>
       <p className="data-entry">Weight: <span className="data-span">{weight}</span> kg</p>
+      <hr />
+      <p>Source: <a href={"https://pokeapi.co/api/v2/pokemon/"+number} target="_blank" rel="noopener noreferrer">https://pokeapi.co/api/v2/pokemon/{number}</a></p>
     </div>
   )
 }
