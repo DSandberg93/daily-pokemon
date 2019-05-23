@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/daily-pokemon/static/css/main.4bad65bd.chunk.css",
+    "main.css": "/daily-pokemon/static/css/main.fbb0f8fd.chunk.css",
     "main.js": "/daily-pokemon/static/js/main.c6ffe370.chunk.js",
     "main.js.map": "/daily-pokemon/static/js/main.c6ffe370.chunk.js.map",
     "runtime~main.js": "/daily-pokemon/static/js/runtime~main.af3f288d.js",
@@ -9,9 +9,9 @@
     "static/js/2.f3d6c536.chunk.js": "/daily-pokemon/static/js/2.f3d6c536.chunk.js",
     "static/js/2.f3d6c536.chunk.js.map": "/daily-pokemon/static/js/2.f3d6c536.chunk.js.map",
     "index.html": "/daily-pokemon/index.html",
-    "precache-manifest.0987c92ce2e262dc830dc0b367719420.js": "/daily-pokemon/precache-manifest.0987c92ce2e262dc830dc0b367719420.js",
+    "precache-manifest.9ffb41a48edd723ba794d0db559598d1.js": "/daily-pokemon/precache-manifest.9ffb41a48edd723ba794d0db559598d1.js",
     "service-worker.js": "/daily-pokemon/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/daily-pokemon/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.4bad65bd.chunk.css.map": "/daily-pokemon/static/css/main.4bad65bd.chunk.css.map"
+    "static/css/main.fbb0f8fd.chunk.css.map": "/daily-pokemon/static/css/main.fbb0f8fd.chunk.css.map"
   }
 }
