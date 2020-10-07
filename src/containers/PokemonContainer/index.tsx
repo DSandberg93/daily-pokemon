@@ -1,14 +1,15 @@
 import React, { Component, } from 'react';
-import PokemonData from '../components/PokemonData';
-import PokemonImage from '../components/PokemonImage';
-import './PokemonContainer.css';
-import './TypeStyling.css'
-import pokemonList from '../pokemonList.json';
+import pokemonList from '../../pokemonList.json';
+import PokemonData from '../../components/PokemonData';
+import PokemonImage from '../../components/PokemonImage';
+import '../TypeStyling.css'
+import './styles.css';
+import { PokemonContainerProps as IProps, PokemonContainerState as IState, TDate } from './types';
 
 
-class PokemonContainer extends Component {
-  constructor() {
-    super();
+class PokemonContainer extends Component<IProps, IState> {
+  constructor(props: IProps) {
+    super(props);
     this.state = {
       name: 'N/A',
       number: this.calculatePokemonNumber(pokemonList.initial_date, pokemonList.list),
@@ -17,19 +18,19 @@ class PokemonContainer extends Component {
       previousEvolution: 'N/A',
       nextEvolution: 'N/A',
       height: 'N/A',
-      weight: 'N/A'
+      weight: 'N/A',
     }
   }
 
-  calculatePokemonNumber(initialDate, numberList) {
+  calculatePokemonNumber(initialDate: TDate, numberList: number[]) {
     let iDate = new Date(Date.UTC(initialDate.year, initialDate.month-1, initialDate.day));
     let cDate = new Date();
     cDate = new Date(Date.UTC(cDate.getFullYear(), cDate.getMonth(), cDate.getDate()));
-    let chosenNumber = numberList[Math.floor((cDate-iDate)/(1000 * 60 * 60 * 24))];
+    let chosenNumber = numberList[Math.floor((cDate.getSeconds() - iDate.getSeconds())/(60 * 60 * 24))];
     return (chosenNumber);
   }
 
-  fetchPokemon(number) {
+  fetchPokemon(number: number) {
     let name = 'N/A';
     let primaryType = 'N/A';
     let secondaryType = 'N/A';
@@ -47,15 +48,15 @@ class PokemonContainer extends Component {
             primaryType = data.types[type].type.name;
           }
         }
-        height = data.height/10;
-        weight = data.weight/10;
+        height = `${data.height/10}`;
+        weight = `${data.weight/10}`;
         name = data.name;
         this.setState({name: name, height: height, weight: weight, secondaryType: secondaryType, primaryType: primaryType});
       })
     )
   }
 
-  getNextEvolution(number) {
+  getNextEvolution(number: number) {
     if (number < pokemonList.list.length) {
       fetch('https://pokeapi.co/api/v2/pokemon-species/' + (number+1) + '/')
       .then(results => {
@@ -69,7 +70,7 @@ class PokemonContainer extends Component {
     }
   }
 
-  getPrevEvolution(number) {
+  getPrevEvolution(number: number) {
     if (number > 1) {
       fetch('https://pokeapi.co/api/v2/pokemon-species/' + (number) + '/')
       .then(results => {
