@@ -7,7 +7,7 @@ import { PokemonContainerProps as IProps, PokemonContainerState as IState, TDate
 import { PContainer } from './styled';
 
 class PokemonContainer extends Component<IProps, IState> {
-  constructor(props: IProps) {
+  constructor (props: IProps) {
     super(props);
     this.state = {
       name: 'N/A',
@@ -18,29 +18,29 @@ class PokemonContainer extends Component<IProps, IState> {
       nextEvolution: 'N/A',
       height: 'N/A',
       weight: 'N/A',
-    }
+    };
   }
 
-  calculatePokemonNumber(initialDate: TDate, numberList: number[]) {
-    let iDate = new Date(Date.UTC(initialDate.year, initialDate.month-1, initialDate.day));
+  calculatePokemonNumber (initialDate: TDate, numberList: number[]) {
+    const iDate = new Date(Date.UTC(initialDate.year, initialDate.month-1, initialDate.day));
     let cDate = new Date();
     cDate = new Date(Date.UTC(cDate.getFullYear(), cDate.getMonth(), cDate.getDate()));
-    let chosenNumber = numberList[Math.floor((cDate.getSeconds() - iDate.getSeconds())/(60 * 60 * 24))];
-    return (chosenNumber);
+    const chosenNumber = numberList[Math.floor((cDate.getSeconds() - iDate.getSeconds())/(60 * 60 * 24))];
+    return chosenNumber;
   }
 
-  fetchPokemon(number: number) {
+  async fetchPokemon (number: number) {
     let name = 'N/A';
     let primaryType = 'N/A';
     let secondaryType = 'N/A';
     let height = '0';
     let weight = '0';
-    return(fetch('https://pokeapi.co/api/v2/pokemon/' + number + '/')
-      .then(results => {
+    return fetch('https://pokeapi.co/api/v2/pokemon/' + number + '/')
+      .then((results) => {
         return results.json();
       })
-      .then(data => {
-        for (let type in data.types) {
+      .then((data) => {
+        for (const type in data.types) {
           if (data.types[type].slot === 2) {
             secondaryType = data.types[type].type.name;
           } else {
@@ -52,46 +52,47 @@ class PokemonContainer extends Component<IProps, IState> {
         name = data.name;
         this.setState({name: name, height: height, weight: weight, secondaryType: secondaryType, primaryType: primaryType});
       })
-    )
+    ;
   }
 
-  getNextEvolution(number: number) {
+  getNextEvolution (number: number) {
     if (number < pokemonList.list.length) {
       fetch('https://pokeapi.co/api/v2/pokemon-species/' + (number+1) + '/')
-      .then(results => {
+      .then((results) => {
         return results.json();
       })
-      .then(data => {
+      .then((data) => {
+        console.log(data);
         if (data.evolves_from_species && data.evolves_from_species.name === this.state.name) {
-          this.setState({nextEvolution: data.name})
+          this.setState({nextEvolution: data.name});
         }
-      })
+      });
     }
   }
 
-  getPrevEvolution(number: number) {
+  getPrevEvolution (number: number) {
     if (number > 1) {
-      fetch('https://pokeapi.co/api/v2/pokemon-species/' + (number) + '/')
-      .then(results => {
+      fetch('https://pokeapi.co/api/v2/pokemon-species/' + number + '/')
+      .then((results) => {
         return results.json();
       })
-      .then(data => {
+      .then((data) => {
         if (data.evolves_from_species) {
-          this.setState({previousEvolution: data.evolves_from_species.name})
+          this.setState({previousEvolution: data.evolves_from_species.name});
         }
-      })
+      });
     }
   }
 
-  componentDidMount() {
-    let pData = this.fetchPokemon(this.state.number);
+  componentDidMount () {
+    const pData = this.fetchPokemon(this.state.number);
     pData.then(() => {
       this.getPrevEvolution(this.state.number);
       this.getNextEvolution(this.state.number);
     });
   }
 
-  render() {
+  render () {
     return(
       <PContainer className={`${this.state.primaryType}${this.state.secondaryType !== 'N/A' && `-${this.state.secondaryType}`}`}>
         <div className="container">
