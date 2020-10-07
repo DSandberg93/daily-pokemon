@@ -2,7 +2,7 @@ import React from 'react';
 import PokemonContainer from '../PokemonContainer';
 import { AppContainer } from './styled';
 
-function App() {
+function App () {
   return (
     <AppContainer>
       <PokemonContainer />
