@@ -1,7 +1,8 @@
 import React from 'react';
-import './PokemonData.css';
+import './styles.css';
+import { PokemonDataProps as IProps } from './types';
 
-const PokemonImage = ({name, number, primaryType, secondaryType, previousEvolution, nextEvolution, height, weight}) => {
+const PokemonData = ({name, number, primaryType, secondaryType, previousEvolution, nextEvolution, height, weight}: IProps) => {
   return(
     <div className="data-container">
       <h2 className="p-name">Pokémon of the Day: </h2>
@@ -20,4 +21,4 @@ const PokemonImage = ({name, number, primaryType, secondaryType, previousEvoluti
   )
 }
 
-export default PokemonImage;
+export default PokemonData;
