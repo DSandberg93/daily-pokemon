@@ -1,12 +1,12 @@
 import React from 'react';
 import PokemonContainer from '../PokemonContainer';
-import './styles.css';
+import { AppContainer } from './styled';
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <PokemonContainer />
-    </div>
+    </AppContainer>
   );
 }
 

@@ -1,20 +1,22 @@
-.p-image-container {
+import styled from 'styled-components';
+
+export const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
-}
+`;
 
-.p-image {
+export const Image = styled.img`
   width: 100%;
   max-width: 400px;
   max-height: 400px;
   margin-top: auto;
   margin-bottom: auto;
-}
+`;
 
-span.source-hover {
+export const Source = styled.span`
   background: rgba(0, 0, 0, 0.5);
   color: white;
   width: 100%;
@@ -27,14 +29,11 @@ span.source-hover {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
   word-wrap: break-word;
-}
-
-span.source-hover span {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
-}
 
-span.source-hover:hover {
-  opacity: 1;
-}
+  &:hover {
+    opacity: 1;
+  }
+`;

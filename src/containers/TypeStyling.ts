@@ -1,3 +1,4 @@
+const typeStyles = () => `
 /* Pokemon type styling */
 
 /* Normal typing combinations */
@@ -1637,3 +1638,6 @@
   background: radial-gradient(rgb(238, 153, 172), rgb(238, 153, 172) 65%, rgb(184, 184, 208) 80%);
   background-attachment: fixed;
 }
+`;
+
+export default typeStyles;
