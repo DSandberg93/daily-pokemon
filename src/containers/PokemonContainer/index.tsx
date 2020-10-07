@@ -2,10 +2,9 @@ import React, { Component, } from 'react';
 import pokemonList from '../../pokemonList.json';
 import PokemonData from '../../components/PokemonData';
 import PokemonImage from '../../components/PokemonImage';
-import '../TypeStyling.css'
-import './styles.css';
+// import '../TypeStyling.css';
 import { PokemonContainerProps as IProps, PokemonContainerState as IState, TDate } from './types';
-
+import { PContainer } from './styled';
 
 class PokemonContainer extends Component<IProps, IState> {
   constructor(props: IProps) {
@@ -94,7 +93,7 @@ class PokemonContainer extends Component<IProps, IState> {
 
   render() {
     return(
-      <div className={"p-container " + this.state.primaryType + (this.state.secondaryType !== "N/A" ? "-" + this.state.secondaryType : "")}>
+      <PContainer className={`${this.state.primaryType}${this.state.secondaryType !== 'N/A' && `-${this.state.secondaryType}`}`}>
         <div className="container">
           <div className="row p-aligner">
             <div className="col-md-5">
@@ -114,7 +113,7 @@ class PokemonContainer extends Component<IProps, IState> {
             </div>
           </div>
         </div>
-      </div>
+      </PContainer>
     );
   }
 }
