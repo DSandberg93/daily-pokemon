@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://webdsandberg.com/daily-pokemon/",
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
     "react-tilt": "^0.1.4",
     "styled-components": "^5.2.0"
@@ -39,6 +39,7 @@
     "@types/node": "^14.11.5",
     "@types/react": "^16.9.51",
     "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.6",
     "@types/styled-components": "^5.1.3",
     "gh-pages": "^2.0.1",
     "typescript": "^4.0.3"

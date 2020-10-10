@@ -27,8 +27,19 @@
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     "space-before-function-paren": "off",
-    "@typescript-eslint/space-before-function-paren": ["warn"],
+    "@typescript-eslint/space-before-function-paren": ["off"],
     "@typescript-eslint/explicit-function-return-type": ["off"],
-    "arrow-parens":"error"
+    "arrow-parens":"error",
+    "@typescript-eslint/member-delimiter-style": ["error", {
+      "multiline": {
+          "delimiter": "comma",
+          "requireLast": true
+      },
+      "singleline": {
+          "delimiter": "comma",
+          "requireLast": false
+      }
+    }],
+    "@typescript-eslint/no-empty-interface": "off"
   }
 }
