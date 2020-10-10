@@ -1,5 +1,7 @@
-export interface PokemonContainerProps {
+import { TPokemonList } from '../../../core/globalTypes';
 
+export interface PokemonContainerProps {
+  pokemonList: TPokemonList,
 }
 
 export interface PokemonContainerState {
