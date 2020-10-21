@@ -18,6 +18,7 @@ export const DropDownHeader = styled.div<{optionsVisible: boolean}>`
   background: transparent;
   
   .arrow {
+    background: rgba(255, 255, 255, .6);
     text-align: center;
     border: 1px solid grey;
     border-radius: 0 15px 15px 0;
@@ -33,6 +34,7 @@ export const DropDownHeader = styled.div<{optionsVisible: boolean}>`
   }
 
   .current-value {
+    background: rgba(255, 255, 255, .6);
     padding-top: 9px;
     padding-bottom: 9px;
     line-height: 20px;
@@ -53,6 +55,7 @@ export const DropDownHeader = styled.div<{optionsVisible: boolean}>`
 `;
 
 export const DropDownOptions = styled.div<{visible: boolean}>`
+  background: rgba(255, 255, 255, .6);
   width: calc(100% - 39px);
   display: block;
   box-sizing: border-box;
@@ -67,8 +70,6 @@ export const DropDownOptions = styled.div<{visible: boolean}>`
   height: 81px;
   transform: scaleY(${(props) => props.visible ? '1' : '0'});
   transform-origin: top;
-  // height: ${(props) => props.visible ? '81px' : '0'};
-  // margin-top: ${(props) => props.visible ? '0' : '-81px'};
   overflow: hidden;
 `;
 

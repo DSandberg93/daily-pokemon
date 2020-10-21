@@ -5,5 +5,5 @@ export interface ContainerProps {
 }
 
 export interface ContainerState {
-
+  currentPokemonList: number[],
 }

@@ -1,6 +1,3 @@
 import styled from 'styled-components';
-import typeStyles from './TypeStyling';
 
-export const AppContainer = styled.div`
-  ${typeStyles}
-`;
+export const AppContainer = styled.div``;

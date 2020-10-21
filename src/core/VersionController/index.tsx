@@ -3,6 +3,8 @@ import PokemonContainer from '../../v1/containers/PokemonContainer';
 import Landing from './../../v2/page/Landing';
 import DropDown from '../components/DropDown';
 import { VersionControllerProps as IProps } from './types';
+import { VersionControllerContainer } from './styled';
+import Credits from '../components/Credits';
 
 const VersionController = ({ pokemonList, match, history }: IProps) => {
   const versions = ['v1', 'v2'];
@@ -12,7 +14,7 @@ const VersionController = ({ pokemonList, match, history }: IProps) => {
     history.replace('/daily-pokemon');
   }
   return (
-    <div>
+    <VersionControllerContainer version={version}>
       <DropDown
         right
         options={versions}
@@ -26,7 +28,8 @@ const VersionController = ({ pokemonList, match, history }: IProps) => {
       {version === 'v1' && <PokemonContainer pokemonList={pokemonList} />}
       {version === 'v2' && <Landing pokemonList={pokemonList} />}
       {!version && <Landing pokemonList={pokemonList} />}
-    </div>
+      <Credits />
+    </VersionControllerContainer>
   );
 };
 

@@ -1,4 +1,4 @@
-const typeStyles = () => `
+const typeStylesV1 = () => `
 /* Pokemon type styling */
 
 /* Normal typing combinations */
@@ -1640,4 +1640,1649 @@ const typeStyles = () => `
 }
 `;
 
-export default typeStyles;
+const typeStylesV2 = () => `
+/* Pokemon type styling */
+
+/* Normal typing combinations */
+
+.normal {
+  background: rgb(168, 168, 120) !important;
+}
+
+.normal-fire {
+  background: linear-gradient(rgb(168, 168, 120), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.normal-figthing {
+  background: linear-gradient(rgb(168, 168, 120), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.normal-water {
+  background: linear-gradient(rgb(168, 168, 120), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.normal-flying {
+  background: linear-gradient(rgb(168, 168, 120), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.normal-grass {
+  background: linear-gradient(rgb(168, 168, 120), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.normal-poison {
+  background: linear-gradient(rgb(168, 168, 120), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.normal-electric {
+  background: linear-gradient(rgb(168, 168, 120), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.normal-ground {
+  background: linear-gradient(rgb(168, 168, 120), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.normal-psychic {
+  background: linear-gradient(rgb(168, 168, 120), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.normal-rock {
+  background: linear-gradient(rgb(168, 168, 120), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.normal-ice {
+  background: linear-gradient(rgb(168, 168, 120), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.normal-bug {
+  background: linear-gradient(rgb(168, 168, 120), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.normal-dragon {
+  background: linear-gradient(rgb(168, 168, 120), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.normal-ghost {
+  background: linear-gradient(rgb(168, 168, 120), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.normal-dark {
+  background: linear-gradient(rgb(168, 168, 120), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.normal-steel {
+  background: linear-gradient(rgb(168, 168, 120), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.normal-fairy {
+  background: linear-gradient(rgb(168, 168, 120), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Fire typing combinations */
+
+.fire {
+  background: rgb(240, 128, 48) !important;
+}
+
+.fire-normal {
+  background: linear-gradient(rgb(240, 128, 48), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.fire-figthing {
+  background: linear-gradient(rgb(240, 128, 48), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.fire-water {
+  background: linear-gradient(rgb(240, 128, 48), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.fire-flying {
+  background: linear-gradient(rgb(240, 128, 48), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.fire-grass {
+  background: linear-gradient(rgb(240, 128, 48), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.fire-poison {
+  background: linear-gradient(rgb(240, 128, 48), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.fire-electric {
+  background: linear-gradient(rgb(240, 128, 48), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.fire-ground {
+  background: linear-gradient(rgb(240, 128, 48), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.fire-psychic {
+  background: linear-gradient(rgb(240, 128, 48), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.fire-rock {
+  background: linear-gradient(rgb(240, 128, 48), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.fire-ice {
+  background: linear-gradient(rgb(240, 128, 48), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.fire-bug {
+  background: linear-gradient(rgb(240, 128, 48), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.fire-dragon {
+  background: linear-gradient(rgb(240, 128, 48), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.fire-ghost {
+  background: linear-gradient(rgb(240, 128, 48), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.fire-dark {
+  background: linear-gradient(rgb(240, 128, 48), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.fire-steel {
+  background: linear-gradient(rgb(240, 128, 48), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.fire-fairy {
+  background: linear-gradient(rgb(240, 128, 48), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Fighting typing combinations */
+
+.fighting {
+  background: rgb(192, 48, 40) !important;
+}
+
+.fighting-normal {
+  background: linear-gradient(rgb(192, 48, 40), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-fire {
+  background: linear-gradient(rgb(192, 48, 40), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-water {
+  background: linear-gradient(rgb(192, 48, 40), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-flying {
+  background: linear-gradient(rgb(192, 48, 40), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-grass {
+  background: linear-gradient(rgb(192, 48, 40), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-poison {
+  background: linear-gradient(rgb(192, 48, 40), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-electric {
+  background: linear-gradient(rgb(192, 48, 40), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-ground {
+  background: linear-gradient(rgb(192, 48, 40), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-psychic {
+  background: linear-gradient(rgb(192, 48, 40), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-rock {
+  background: linear-gradient(rgb(192, 48, 40), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-ice {
+  background: linear-gradient(rgb(192, 48, 40), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-bug {
+  background: linear-gradient(rgb(192, 48, 40), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-dragon {
+  background: linear-gradient(rgb(192, 48, 40), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-ghost {
+  background: linear-gradient(rgb(192, 48, 40), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-dark {
+  background: linear-gradient(rgb(192, 48, 40), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-steel {
+  background: linear-gradient(rgb(192, 48, 40), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.fighting-fairy {
+  background: linear-gradient(rgb(192, 48, 40), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Water typing combinations */
+
+.water {
+  background: rgb(104, 144, 240) !important;
+}
+
+.water-normal {
+  background: linear-gradient(rgb(104, 144, 240), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.water-fire {
+  background: linear-gradient(rgb(104, 144, 240), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.water-fighting {
+  background: linear-gradient(rgb(104, 144, 240), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.water-flying {
+  background: linear-gradient(rgb(104, 144, 240), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.water-grass {
+  background: linear-gradient(rgb(104, 144, 240), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.water-poison {
+  background: linear-gradient(rgb(104, 144, 240), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.water-electric {
+  background: linear-gradient(rgb(104, 144, 240), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.water-ground {
+  background: linear-gradient(rgb(104, 144, 240), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.water-psychic {
+  background: linear-gradient(rgb(104, 144, 240), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.water-rock {
+  background: linear-gradient(rgb(104, 144, 240), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.water-ice {
+  background: linear-gradient(rgb(104, 144, 240), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.water-bug {
+  background: linear-gradient(rgb(104, 144, 240), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.water-dragon {
+  background: linear-gradient(rgb(104, 144, 240), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.water-ghost {
+  background: linear-gradient(rgb(104, 144, 240), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.water-dark {
+  background: linear-gradient(rgb(104, 144, 240), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.water-steel {
+  background: linear-gradient(rgb(104, 144, 240), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.water-fairy {
+  background: linear-gradient(rgb(104, 144, 240), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Flying typing combinations */
+
+.flying {
+  background: rgb(168, 144, 240) !important;
+}
+
+.flying-normal {
+  background: linear-gradient(rgb(168, 144, 240), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.flying-fire {
+  background: linear-gradient(rgb(168, 144, 240), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.flying-fighting {
+  background: linear-gradient(rgb(168, 144, 240), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.flying-water {
+  background: linear-gradient(rgb(168, 144, 240), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.flying-grass {
+  background: linear-gradient(rgb(168, 144, 240), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.flying-poison {
+  background: linear-gradient(rgb(168, 144, 240), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.flying-electric {
+  background: linear-gradient(rgb(168, 144, 240), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.flying-ground {
+  background: linear-gradient(rgb(168, 144, 240), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.flying-psychic {
+  background: linear-gradient(rgb(168, 144, 240), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.flying-rock {
+  background: linear-gradient(rgb(168, 144, 240), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.flying-ice {
+  background: linear-gradient(rgb(168, 144, 240), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.flying-bug {
+  background: linear-gradient(rgb(168, 144, 240), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.flying-dragon {
+  background: linear-gradient(rgb(168, 144, 240), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.flying-ghost {
+  background: linear-gradient(rgb(168, 144, 240), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.flying-dark {
+  background: linear-gradient(rgb(168, 144, 240), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.flying-steel {
+  background: linear-gradient(rgb(168, 144, 240), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.flying-fairy {
+  background: linear-gradient(rgb(168, 144, 240), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Grass typing combinations */
+
+.grass {
+  background: rgb(120, 200, 80) !important;
+}
+
+.grass-normal {
+  background: linear-gradient(rgb(120, 200, 80), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.grass-fire {
+  background: linear-gradient(rgb(120, 200, 80), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.grass-figthing {
+  background: linear-gradient(rgb(120, 200, 80), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.grass-water {
+  background: linear-gradient(rgb(120, 200, 80), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.grass-flying {
+  background: linear-gradient(rgb(120, 200, 80), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.grass-poison {
+  background: linear-gradient(rgb(120, 200, 80), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.grass-electric {
+  background: linear-gradient(rgb(120, 200, 80), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.grass-ground {
+  background: linear-gradient(rgb(120, 200, 80), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.grass-psychic {
+  background: linear-gradient(rgb(120, 200, 80), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.grass-rock {
+  background: linear-gradient(rgb(120, 200, 80), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.grass-ice {
+  background: linear-gradient(rgb(120, 200, 80), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.grass-bug {
+  background: linear-gradient(rgb(120, 200, 80), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.grass-dragon {
+  background: linear-gradient(rgb(120, 200, 80), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.grass-ghost {
+  background: linear-gradient(rgb(120, 200, 80), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.grass-dark {
+  background: linear-gradient(rgb(120, 200, 80), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.grass-steel {
+  background: linear-gradient(rgb(120, 200, 80), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.grass-fairy {
+  background: linear-gradient(rgb(120, 200, 80), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Poison typing combinations */
+
+.poison {
+  background: rgb(160, 64, 160) !important;
+}
+
+.poison-normal {
+  background: linear-gradient(rgb(160, 64, 160), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.poison-fire {
+  background: linear-gradient(rgb(160, 64, 160), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.poison-figthing {
+  background: linear-gradient(rgb(160, 64, 160), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.poison-water {
+  background: linear-gradient(rgb(160, 64, 160), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.poison-flying {
+  background: linear-gradient(rgb(160, 64, 160), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.poison-grass {
+  background: linear-gradient(rgb(160, 64, 160), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.poison-electric {
+  background: linear-gradient(rgb(160, 64, 160), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.poison-ground {
+  background: linear-gradient(rgb(160, 64, 160), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.poison-psychic {
+  background: linear-gradient(rgb(160, 64, 160), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.poison-rock {
+  background: linear-gradient(rgb(160, 64, 160), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.poison-ice {
+  background: linear-gradient(rgb(160, 64, 160), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.poison-bug {
+  background: linear-gradient(rgb(160, 64, 160), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.poison-dragon {
+  background: linear-gradient(rgb(160, 64, 160), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.poison-ghost {
+  background: linear-gradient(rgb(160, 64, 160), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.poison-dark {
+  background: linear-gradient(rgb(160, 64, 160), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.poison-steel {
+  background: linear-gradient(rgb(160, 64, 160), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.poison-fairy {
+  background: linear-gradient(rgb(160, 64, 160), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Electric typing combinations */
+
+.electric {
+  background: rgb(248, 208, 48) !important;
+}
+
+.electric-normal {
+  background: linear-gradient(rgb(248, 208, 48), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.electric-fire {
+  background: linear-gradient(rgb(248, 208, 48), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.electric-figthing {
+  background: linear-gradient(rgb(248, 208, 48), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.electric-water {
+  background: linear-gradient(rgb(248, 208, 48), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.electric-flying {
+  background: linear-gradient(rgb(248, 208, 48), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.electric-grass {
+  background: linear-gradient(rgb(248, 208, 48), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.electric-poison {
+  background: linear-gradient(rgb(248, 208, 48), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.electric-ground {
+  background: linear-gradient(rgb(248, 208, 48), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.electric-psychic {
+  background: linear-gradient(rgb(248, 208, 48), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.electric-rock {
+  background: linear-gradient(rgb(248, 208, 48), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.electric-ice {
+  background: linear-gradient(rgb(248, 208, 48), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.electric-bug {
+  background: linear-gradient(rgb(248, 208, 48), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.electric-dragon {
+  background: linear-gradient(rgb(248, 208, 48), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.electric-ghost {
+  background: linear-gradient(rgb(248, 208, 48), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.electric-dark {
+  background: linear-gradient(rgb(248, 208, 48), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.electric-steel {
+  background: linear-gradient(rgb(248, 208, 48), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.electric-fairy {
+  background: linear-gradient(rgb(248, 208, 48), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Ground typing combinations */
+
+.ground {
+  background: rgb(224, 192, 104) !important;
+}
+
+.ground-normal {
+  background: linear-gradient(rgb(224, 192, 104), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.ground-fire {
+  background: linear-gradient(rgb(224, 192, 104), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.ground-figthing {
+  background: linear-gradient(rgb(224, 192, 104), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.ground-water {
+  background: linear-gradient(rgb(224, 192, 104), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.ground-flying {
+  background: linear-gradient(rgb(224, 192, 104), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.ground-grass {
+  background: linear-gradient(rgb(224, 192, 104), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.ground-poison {
+  background: linear-gradient(rgb(224, 192, 104), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.ground-electric {
+  background: linear-gradient(rgb(224, 192, 104), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.ground-psychic {
+  background: linear-gradient(rgb(224, 192, 104), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.ground-rock {
+  background: linear-gradient(rgb(224, 192, 104), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.ground-ice {
+  background: linear-gradient(rgb(224, 192, 104), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.ground-bug {
+  background: linear-gradient(rgb(224, 192, 104), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.ground-dragon {
+  background: linear-gradient(rgb(224, 192, 104), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.ground-ghost {
+  background: linear-gradient(rgb(224, 192, 104), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.ground-dark {
+  background: linear-gradient(rgb(224, 192, 104), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.ground-steel {
+  background: linear-gradient(rgb(224, 192, 104), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.ground-fairy {
+  background: linear-gradient(rgb(224, 192, 104), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Psychic typing combinations */
+
+.psychic {
+  background: rgb(248, 88, 136) !important;
+}
+
+.psychic-normal {
+  background: linear-gradient(rgb(248, 88, 136), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-fire {
+  background: linear-gradient(rgb(248, 88, 136), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-figthing {
+  background: linear-gradient(rgb(248, 88, 136), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-water {
+  background: linear-gradient(rgb(248, 88, 136), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-flying {
+  background: linear-gradient(rgb(248, 88, 136), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-grass {
+  background: linear-gradient(rgb(248, 88, 136), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-poison {
+  background: linear-gradient(rgb(248, 88, 136), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-electric {
+  background: linear-gradient(rgb(248, 88, 136), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-ground {
+  background: linear-gradient(rgb(248, 88, 136), rgb(224, 192, 104)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-rock {
+  background: linear-gradient(rgb(248, 88, 136), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-ice {
+  background: linear-gradient(rgb(248, 88, 136), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-bug {
+  background: linear-gradient(rgb(248, 88, 136), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-dragon {
+  background: linear-gradient(rgb(248, 88, 136), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-ghost {
+  background: linear-gradient(rgb(248, 88, 136), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-dark {
+  background: linear-gradient(rgb(248, 88, 136), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-steel {
+  background: linear-gradient(rgb(248, 88, 136), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.psychic-fairy {
+  background: linear-gradient(rgb(248, 88, 136), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Rock typing combinations */
+
+.rock {
+  background: rgb(184, 160, 56) !important;
+}
+
+.rock-normal {
+  background: linear-gradient(rgb(184, 160, 56), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.rock-fire {
+  background: linear-gradient(rgb(184, 160, 56), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.rock-figthing {
+  background: linear-gradient(rgb(184, 160, 56), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.rock-water {
+  background: linear-gradient(rgb(184, 160, 56), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.rock-flying {
+  background: linear-gradient(rgb(184, 160, 56), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.rock-grass {
+  background: linear-gradient(rgb(184, 160, 56), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.rock-poison {
+  background: linear-gradient(rgb(184, 160, 56), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.rock-electric {
+  background: linear-gradient(rgb(184, 160, 56), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.rock-ground {
+  background: linear-gradient(rgb(184, 160, 56), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.rock-psychic {
+  background: linear-gradient(rgb(184, 160, 56), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.rock-ice {
+  background: linear-gradient(rgb(184, 160, 56), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.rock-bug {
+  background: linear-gradient(rgb(184, 160, 56), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.rock-dragon {
+  background: linear-gradient(rgb(184, 160, 56), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.rock-ghost {
+  background: linear-gradient(rgb(184, 160, 56), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.rock-dark {
+  background: linear-gradient(rgb(184, 160, 56), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.rock-steel {
+  background: linear-gradient(rgb(184, 160, 56), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.rock-fairy {
+  background: linear-gradient(rgb(184, 160, 56), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Ice typing combinations */
+
+.ice {
+  background: rgb(152, 216, 216) !important;
+}
+
+.ice-normal {
+  background: linear-gradient(rgb(152, 216, 216), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.ice-fire {
+  background: linear-gradient(rgb(152, 216, 216), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.ice-figthing {
+  background: linear-gradient(rgb(152, 216, 216), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.ice-water {
+  background: linear-gradient(rgb(152, 216, 216), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.ice-flying {
+  background: linear-gradient(rgb(152, 216, 216), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.ice-grass {
+  background: linear-gradient(rgb(152, 216, 216), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.ice-poison {
+  background: linear-gradient(rgb(152, 216, 216), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.ice-electric {
+  background: linear-gradient(rgb(152, 216, 216), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.ice-ground {
+  background: linear-gradient(rgb(152, 216, 216), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.ice-psychic {
+  background: linear-gradient(rgb(152, 216, 216), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.ice-rock {
+  background: linear-gradient(rgb(152, 216, 216), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.ice-bug {
+  background: linear-gradient(rgb(152, 216, 216), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.ice-dragon {
+  background: linear-gradient(rgb(152, 216, 216), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.ice-ghost {
+  background: linear-gradient(rgb(152, 216, 216), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.ice-dark {
+  background: linear-gradient(rgb(152, 216, 216), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.ice-steel {
+  background: linear-gradient(rgb(152, 216, 216), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.ice-fairy {
+  background: linear-gradient(rgb(152, 216, 216), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Bug typing combinations */
+
+.bug {
+  background: rgb(168, 184, 32) !important;
+}
+
+.bug-normal {
+  background: linear-gradient(rgb(168, 184, 32), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.bug-fire {
+  background: linear-gradient(rgb(168, 184, 32), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.bug-figthing {
+  background: linear-gradient(rgb(168, 184, 32), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.bug-water {
+  background: linear-gradient(rgb(168, 184, 32), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.bug-flying {
+  background: linear-gradient(rgb(168, 184, 32), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.bug-grass {
+  background: linear-gradient(rgb(168, 184, 32), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.bug-poison {
+  background: linear-gradient(rgb(168, 184, 32), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.bug-electric {
+  background: linear-gradient(rgb(168, 184, 32), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.bug-ground {
+  background: linear-gradient(rgb(168, 184, 32), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.bug-psychic {
+  background: linear-gradient(rgb(168, 184, 32), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.bug-rock {
+  background: linear-gradient(rgb(168, 184, 32), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.bug-ice {
+  background: linear-gradient(rgb(168, 184, 32), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.bug-dragon {
+  background: linear-gradient(rgb(168, 184, 32), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.bug-ghost {
+  background: linear-gradient(rgb(168, 184, 32), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.bug-dark {
+  background: linear-gradient(rgb(168, 184, 32), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.bug-steel {
+  background: linear-gradient(rgb(168, 184, 32), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.bug-fairy {
+  background: linear-gradient(rgb(168, 184, 32), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Dragon typing combinations */
+
+.dragon {
+  background: rgb(112, 56, 248) !important;
+}
+
+.dragon-normal {
+  background: linear-gradient(rgb(112, 56, 248), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-fire {
+  background: linear-gradient(rgb(112, 56, 248), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-figthing {
+  background: linear-gradient(rgb(112, 56, 248), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-water {
+  background: linear-gradient(rgb(112, 56, 248), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-flying {
+  background: linear-gradient(rgb(112, 56, 248), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-grass {
+  background: linear-gradient(rgb(112, 56, 248), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-poison {
+  background: linear-gradient(rgb(112, 56, 248), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-electric {
+  background: linear-gradient(rgb(112, 56, 248), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-ground {
+  background: linear-gradient(rgb(112, 56, 248), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-psychic {
+  background: linear-gradient(rgb(112, 56, 248), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-ice {
+  background: linear-gradient(rgb(112, 56, 248), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-rock {
+  background: linear-gradient(rgb(112, 56, 248), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-bug {
+  background: linear-gradient(rgb(112, 56, 248), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-ghost {
+  background: linear-gradient(rgb(112, 56, 248), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-dark {
+  background: linear-gradient(rgb(112, 56, 248), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-steel {
+  background: linear-gradient(rgb(112, 56, 248), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.dragon-fairy {
+  background: linear-gradient(rgb(112, 56, 248), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Ghost typing combinations */
+
+.ghost {
+  background: rgb(112, 88, 152) !important;
+}
+
+.ghost-normal {
+  background: linear-gradient(rgb(112, 88, 152), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-fire {
+  background: linear-gradient(rgb(112, 88, 152), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-figthing {
+  background: linear-gradient(rgb(112, 88, 152), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-water {
+  background: linear-gradient(rgb(112, 88, 152), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-flying {
+  background: linear-gradient(rgb(112, 88, 152), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-grass {
+  background: linear-gradient(rgb(112, 88, 152), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-poison {
+  background: linear-gradient(rgb(112, 88, 152), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-electric {
+  background: linear-gradient(rgb(112, 88, 152), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-ground {
+  background: linear-gradient(rgb(112, 88, 152), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-psychic {
+  background: linear-gradient(rgb(112, 88, 152), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-ice {
+  background: linear-gradient(rgb(112, 88, 152), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-rock {
+  background: linear-gradient(rgb(112, 88, 152), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-bug {
+  background: linear-gradient(rgb(112, 88, 152), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-dragon {
+  background: linear-gradient(rgb(112, 88, 152), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-dark {
+  background: linear-gradient(rgb(112, 88, 152), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-steel {
+  background: linear-gradient(rgb(112, 88, 152), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.ghost-fairy {
+  background: linear-gradient(rgb(112, 88, 152), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Dark typing combinations */
+
+.dark {
+  background: rgb(112, 88, 72) !important;
+}
+
+.dark-normal {
+  background: linear-gradient(rgb(112, 88, 72), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.dark-fire {
+  background: linear-gradient(rgb(112, 88, 72), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.dark-figthing {
+  background: linear-gradient(rgb(112, 88, 72), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.dark-water {
+  background: linear-gradient(rgb(112, 88, 72), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.dark-flying {
+  background: linear-gradient(rgb(112, 88, 72), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.dark-grass {
+  background: linear-gradient(rgb(112, 88, 72), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.dark-poison {
+  background: linear-gradient(rgb(112, 88, 72), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.dark-electric {
+  background: linear-gradient(rgb(112, 88, 72), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.dark-ground {
+  background: linear-gradient(rgb(112, 88, 72), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.dark-psychic {
+  background: linear-gradient(rgb(112, 88, 72), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.dark-ice {
+  background: linear-gradient(rgb(112, 88, 72), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.dark-rock {
+  background: linear-gradient(rgb(112, 88, 72), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.dark-bug {
+  background: linear-gradient(rgb(112, 88, 72), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.dark-dragon {
+  background: linear-gradient(rgb(112, 88, 72), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.dark-ghost {
+  background: linear-gradient(rgb(112, 88, 72), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.dark-steel {
+  background: linear-gradient(rgb(112, 88, 72), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+
+.dark-fairy {
+  background: linear-gradient(rgb(112, 88, 72), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Steel typing combinations */
+
+.steel {
+  background: rgb(184, 184, 208) !important;
+}
+
+.steel-normal {
+  background: linear-gradient(rgb(184, 184, 208), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.steel-fire {
+  background: linear-gradient(rgb(184, 184, 208), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.steel-figthing {
+  background: linear-gradient(rgb(184, 184, 208), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.steel-water {
+  background: linear-gradient(rgb(184, 184, 208), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.steel-flying {
+  background: linear-gradient(rgb(184, 184, 208), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.steel-grass {
+  background: linear-gradient(rgb(184, 184, 208), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.steel-poison {
+  background: linear-gradient(rgb(184, 184, 208), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.steel-electric {
+  background: linear-gradient(rgb(184, 184, 208), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.steel-ground {
+  background: linear-gradient(rgb(184, 184, 208), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.steel-psychic {
+  background: linear-gradient(rgb(184, 184, 208), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.steel-ice {
+  background: linear-gradient(rgb(184, 184, 208), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.steel-rock {
+  background: linear-gradient(rgb(184, 184, 208), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.steel-bug {
+  background: linear-gradient(rgb(184, 184, 208), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.steel-dragon {
+  background: linear-gradient(rgb(184, 184, 208), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.steel-ghost {
+  background: linear-gradient(rgb(184, 184, 208), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.steel-dark {
+  background: linear-gradient(rgb(184, 184, 208), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.steel-fairy {
+  background: linear-gradient(rgb(184, 184, 208), rgb(238, 153, 172)) !important;
+  background-attachment: fixed;
+}
+
+/* Fairy typing combinations */
+
+.fairy {
+  background: rgb(238, 153, 172) !important;
+}
+
+.fairy-normal {
+  background: linear-gradient(rgb(238, 153, 172), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-fire {
+  background: linear-gradient(rgb(238, 153, 172), rgb(240, 128, 48)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-figthing {
+  background: linear-gradient(rgb(238, 153, 172), rgb(192, 48, 40)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-water {
+  background: linear-gradient(rgb(238, 153, 172), rgb(104, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-flying {
+  background: linear-gradient(rgb(238, 153, 172), rgb(168, 144, 240)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-grass {
+  background: linear-gradient(rgb(238, 153, 172), rgb(120, 200, 80)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-poison {
+  background: linear-gradient(rgb(238, 153, 172), rgb(160, 64, 160)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-electric {
+  background: linear-gradient(rgb(238, 153, 172), rgb(248, 208, 48)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-ground {
+  background: linear-gradient(rgb(238, 153, 172), rgb(248, 88, 136)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-psychic {
+  background: linear-gradient(rgb(238, 153, 172), rgb(168, 168, 120)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-ice {
+  background: linear-gradient(rgb(238, 153, 172), rgb(184, 160, 56)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-rock {
+  background: linear-gradient(rgb(238, 153, 172), rgb(152, 216, 216)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-bug {
+  background: linear-gradient(rgb(238, 153, 172), rgb(168, 184, 32)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-dragon {
+  background: linear-gradient(rgb(238, 153, 172), rgb(112, 56, 248)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-ghost {
+  background: linear-gradient(rgb(238, 153, 172), rgb(112, 88, 152)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-dark {
+  background: linear-gradient(rgb(238, 153, 172), rgb(112, 88, 72)) !important;
+  background-attachment: fixed;
+}
+
+.fairy-steel {
+  background: linear-gradient(rgb(238, 153, 172), rgb(184, 184, 208)) !important;
+  background-attachment: fixed;
+}
+`;
+
+export {
+  typeStylesV1,
+  typeStylesV2,
+};
