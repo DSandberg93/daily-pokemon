@@ -4,26 +4,36 @@ export const DataContainer = styled.div`
   text-align: left;
   font-family: 'Indie Flower', cursive;
 
-  hr {
-    margin-top: 0;
-  }
-`;
-
-export const DataEntry = styled.div`
-  margin: 5px;
-  font-size: 1.3em;
-
-  .data-span {
+  .name {
     text-transform: capitalize;
-    font-size: 1.1em;
+    font-size: 3em;
   }
-`;
+  .header {
+    margin: 0;
+  }
 
-export const Name = styled.span`
-  text-transform: capitalize;
-  font-size: 3em;
-`;
+  .entry-container {
+    padding: .5rem 0;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
 
-export const Header = styled.h2`
-  margin: 0;
+    .data-entry {
+      margin: .25rem;
+      font-size: 1.3em;
+      
+      .data-span {
+        text-transform: capitalize;
+        font-size: 1.1em;
+      }
+    }
+  }
+  
+  .resource-link {
+    margin-top: 4px;
+    font-size: 1rem;
+
+    .fa-external-link-alt {
+      font-size: .75rem;
+    }
+  }
 `;

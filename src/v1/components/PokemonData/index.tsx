@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, DataContainer, DataEntry, Name } from './styled';
+import { DataContainer } from './styled';
 import { PokemonDataProps as IProps } from './types';
 
 const PokemonData = ({
@@ -13,18 +13,18 @@ const PokemonData = ({
   weight,
 }: IProps) =>
   <DataContainer>
-    <Header>Pokémon of the Day: </Header>
-    <Name>{name}</Name>
-    <hr />
-    <DataEntry>Number: <span className="data-span">{number}</span></DataEntry>
-    <DataEntry>Primary type: <span className="data-span">{primaryType}</span></DataEntry>
-    <DataEntry>Secondary type: <span className="data-span">{secondaryType}</span></DataEntry>
-    <DataEntry>Evolves from: <span className="data-span">{previousEvolution}</span></DataEntry>
-    <DataEntry>Evolves into: <span className="data-span">{nextEvolution}</span></DataEntry>
-    <DataEntry>Height: <span className="data-span">{height}</span> m</DataEntry>
-    <DataEntry>Weight: <span className="data-span">{weight}</span> kg</DataEntry>
-    <hr />
-    <div>Source: <a href={`https://pokeapi.co/api/v2/pokemon/${number}`} target="_blank" rel="noopener noreferrer">https://pokeapi.co/api/v2/pokemon/{number}</a></div>
+    <div className="header">Pokémon of the Day: </div>
+    <div className="name">{name}</div>
+    <div className="entry-container">
+      <div className="data-entry">Number: <span className="data-span">{number}</span></div>
+      <div className="data-entry">Primary type: <span className="data-span">{primaryType}</span></div>
+      <div className="data-entry">Secondary type: <span className="data-span">{secondaryType}</span></div>
+      <div className="data-entry">Evolves from: <span className="data-span">{previousEvolution}</span></div>
+      <div className="data-entry">Evolves into: <span className="data-span">{nextEvolution}</span></div>
+      <div className="data-entry">Height: <span className="data-span">{height}</span> m</div>
+      <div className="data-entry">Weight: <span className="data-span">{weight}</span> kg</div>
+    </div>
+    <div className="resource-link">Source: <a href={`https://pokeapi.co/api/v2/pokemon/${number}`} target="_blank" rel="noopener noreferrer">https://pokeapi.co/api/v2/pokemon/{number} <i className="fas fa-external-link-alt"></i></a></div>
   </DataContainer>
 ;
 
