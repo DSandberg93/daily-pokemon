@@ -1,6 +1,6 @@
 import React, { Component, } from 'react';
-import PokemonData from '../../components/PokemonData';
-import PokemonImage from '../../components/PokemonImage';
+import PokemonData from 'v1/components/PokemonData';
+import PokemonImage from 'v1/components/PokemonImage';
 import { PokemonContainerProps as IProps, PokemonContainerState as IState, TDate } from './types';
 import { PContainer } from './styled';
 
@@ -9,7 +9,7 @@ class PokemonContainer extends Component<IProps, IState> {
     super(props);
     this.state = {
       name: 'N/A',
-      number: this.calculatePokemonNumber(props.pokemonList.initial_date, props.pokemonList.list),
+      number: this.calculatePokemonNumber(props.pokemonList.initial_date, props.pokemonList.list, props.pokemonList.unique_count),
       primaryType: 'N/A',
       secondaryType: 'N/A',
       previousEvolution: 'N/A',
@@ -27,21 +27,22 @@ class PokemonContainer extends Component<IProps, IState> {
     });
   }
 
-  calculatePokemonNumber (initialDate: TDate, numberList: number[]) {
+  calculatePokemonNumber (initialDate: TDate, numberList: number[], uniqueCount: number) {
     const iDate = new Date(Date.UTC(initialDate.year, initialDate.month-1, initialDate.day));
     let cDate = new Date();
     cDate = new Date(Date.UTC(cDate.getFullYear(), cDate.getMonth(), cDate.getDate()));
-    const chosenNumber = numberList[Math.floor((cDate.getTime() - iDate.getTime())/(1000 * 60 * 60 * 24))];
+    const chosenNumber = numberList[Math.floor((cDate.getTime() - iDate.getTime())/(1000 * 60 * 60 * 24)) % uniqueCount];
     return chosenNumber;
   }
 
   async fetchPokemon (number: number) {
+    console.log(typeof number);
     let name = 'N/A';
     let primaryType = 'N/A';
     let secondaryType = 'N/A';
     let height = '0';
     let weight = '0';
-    return fetch('https://pokeapi.co/api/v2/pokemon/' + number + '/')
+    return fetch(`https://pokeapi.co/api/v2/pokemon/${number}/`)
       .then((results) => {
         return results.json();
       })
@@ -63,7 +64,7 @@ class PokemonContainer extends Component<IProps, IState> {
 
   getNextEvolution (number: number) {
     if (number < this.props.pokemonList.list.length) {
-      fetch('https://pokeapi.co/api/v2/pokemon-species/' + (number + 1) + '/')
+      fetch(`https://pokeapi.co/api/v2/pokemon-species/${number + 1}/`)
       .then((results) => {
         return results.json();
       })
@@ -77,7 +78,7 @@ class PokemonContainer extends Component<IProps, IState> {
 
   getPrevEvolution (number: number) {
     if (number > 1) {
-      fetch('https://pokeapi.co/api/v2/pokemon-species/' + number + '/')
+      fetch(`https://pokeapi.co/api/v2/pokemon-species/${number}/`)
       .then((results) => {
         return results.json();
       })
