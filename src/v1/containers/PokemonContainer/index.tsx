@@ -36,7 +36,6 @@ class PokemonContainer extends Component<IProps, IState> {
   }
 
   async fetchPokemon (number: number) {
-    console.log(typeof number);
     let name = 'N/A';
     let primaryType = 'N/A';
     let secondaryType = 'N/A';

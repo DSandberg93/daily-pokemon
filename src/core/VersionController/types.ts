@@ -4,6 +4,6 @@ import { TPokemonList } from '../globalTypes';
 
 export interface VersionControllerProps {
   history: History,
-  match: match<{version: string}>,
+  match: match< {version: string }>,
   pokemonList: TPokemonList,
 }
