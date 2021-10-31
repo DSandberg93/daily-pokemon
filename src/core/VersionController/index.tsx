@@ -1,6 +1,6 @@
 import React from 'react';
 import PokemonContainer from '../../v1/containers/PokemonContainer';
-import Landing from './../../v2/page/Landing';
+import Landing from '../../v2/pages/Landing';
 import DropDown from '../components/DropDown';
 import { VersionControllerProps as IProps } from './types';
 

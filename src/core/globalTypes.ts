@@ -5,4 +5,5 @@ export type TPokemonList = {
     year: number,
   },
   list: number[],
+  unique_count: number,
 };

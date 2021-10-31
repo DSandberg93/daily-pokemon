@@ -6,7 +6,7 @@ export const LandingContainer = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 300px 600px;
-  grid-areas: ". history";
+  grid-template-areas: ". history";
 `;
 
 export const PokemonCard = styled.div<{primary?: boolean}>`
@@ -18,7 +18,6 @@ export const PokemonCard = styled.div<{primary?: boolean}>`
 export const HistoryContainer = styled.div`
   grid-area: history;
   width: 100%;
-  height: 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;

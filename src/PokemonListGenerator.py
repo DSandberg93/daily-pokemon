@@ -20,8 +20,9 @@ list_object = {
         "month": date.month,
         "year": date.year
     },
-    "list": number_list
+    "list": number_list,
+    "unique_count": highest_number
 }
 
-with open('pokemonList.json', 'w') as file:
+with open('src/pokemonList.json', 'w') as file:
     json.dump(list_object, file)
