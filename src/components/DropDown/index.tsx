@@ -1,44 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { DropDownContainer, DropDownHeader, DropDownOption, DropDownOptions } from './styled';
-import { DropDownProps as IProps, DropDownState as IState } from './types';
+import { DropDownProps as IProps } from './types';
 
-class DropDown extends React.PureComponent<IProps, IState> {
-  constructor (props: IProps) {
-    super(props);
-    this.state = {
-      optionsVisible: false,
-    };
-  }
+const DropDown: React.FC<IProps> = ({ right, options, value, onClick }) => {
+  const [optionsVisible, setOptionsVisible] = useState(false);
 
-  handleOnClick(index: number) {
-    this.setState({ optionsVisible: false });
-    this.props.onClick(index);
-  }
+  const handleOnClick = (index: number) => {
+    setOptionsVisible(false);
+    onClick(index);
+  };
 
-  render () {
-    const { 
-      right,
-      options,
-      value,
-    } = this.props;
-    const {
-      optionsVisible,
-    } = this.state;
-    return (
-      <DropDownContainer right={right} id="drop-down">
-        <DropDownHeader
-          optionsVisible={optionsVisible}
-          onClick={() => this.setState((prevState) => ({ optionsVisible: !prevState.optionsVisible }))}
-        >
-          <span className="current-value">{value.toUpperCase()}</span>
-          <span className="arrow"><i className="fas fa-angle-down"></i></span>
-        </DropDownHeader>
-        <DropDownOptions visible={optionsVisible}>
-          {options.map((option, index) => <DropDownOption key={index} onClick={() => this.handleOnClick(index)}><span>{option.toUpperCase()}</span></DropDownOption>)}
-        </DropDownOptions>
-      </DropDownContainer>
-    );
-  }
-}
+  return (
+    <DropDownContainer right={right} id="drop-down">
+      <DropDownHeader
+        optionsVisible={optionsVisible}
+        onClick={() => setOptionsVisible(!optionsVisible )}
+      >
+        <span className="current-value">{value.toUpperCase()}</span>
+        <span className="arrow"><i className="fas fa-angle-down"></i></span>
+      </DropDownHeader>
+      <DropDownOptions visible={optionsVisible}>
+        {options.map((option, index) => <DropDownOption key={index} onClick={() => handleOnClick(index)}><span>{option.toUpperCase()}</span></DropDownOption>)}
+      </DropDownOptions>
+    </DropDownContainer>
+  );
+};
 
 export default DropDown;

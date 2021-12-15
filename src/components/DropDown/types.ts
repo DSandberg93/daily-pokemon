@@ -4,7 +4,3 @@ export interface DropDownProps {
   options: string[],
   onClick: (index: number) => void,
 }
-
-export interface DropDownState {
-  optionsVisible: boolean,
-}
