@@ -1,4 +1,4 @@
-import { TPokemonList } from '../../../core/globalTypes';
+import { TPokemonList } from '../../types/globalTypes';
 
 export interface ContainerProps {
   pokemonList: TPokemonList,

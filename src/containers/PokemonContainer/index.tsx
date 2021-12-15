@@ -1,6 +1,6 @@
 import React, { Component, } from 'react';
-import PokemonData from 'v1/components/PokemonData';
-import PokemonImage from 'v1/components/PokemonImage';
+import PokemonData from 'components/PokemonData';
+import PokemonImage from 'components/PokemonImage';
 import { PokemonContainerProps as IProps, PokemonContainerState as IState, TDate } from './types';
 import { PContainer } from './styled';
 

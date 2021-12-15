@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import PokemonContainer from 'v1/containers/PokemonContainer';
-import Landing from 'v2/pages/Landing';
-import DropDown from 'core/components/DropDown';
+import PokemonContainer from 'containers/PokemonContainer';
+import Landing from 'pages/Landing';
+import DropDown from 'components/DropDown';
 import { VersionControllerProps as IProps } from './types';
 
 const VersionController = ({ pokemonList, match, history }: IProps) => {

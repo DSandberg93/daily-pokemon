@@ -5,7 +5,7 @@ import {
   withRouter,
   Redirect,
 } from 'react-router-dom';
-import pokemonList from '../../pokemonList.json';
+import pokemonList from 'pokemonList.json';
 import { AppContainer } from './styled';
 import VersionController from '../VersionController';
 

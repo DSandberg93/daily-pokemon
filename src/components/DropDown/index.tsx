@@ -10,24 +10,6 @@ class DropDown extends React.PureComponent<IProps, IState> {
     };
   }
 
-  // componentDidMount() {
-  //   document.addEventListener('click', (event: MouseEvent) => {
-  //     const isValidElement = event.composedPath().find((target) => target === document.getElementById('drop-down'));
-  //     if (!isValidElement && this.state.optionsVisible) {
-  //       this.setState({ optionsVisible: false });
-  //     }
-  //   });
-  // }
-
-  // componentWillUnmount() {
-  //   document.removeEventListener('click', (event: MouseEvent) => {
-  //     const isValidElement = event.composedPath().find((target) => target === document.getElementById('drop-down'));
-  //     if (!isValidElement && this.state.optionsVisible) {
-  //       this.setState({ optionsVisible: false });
-  //     }
-  //   });
-  // }
-
   handleOnClick(index: number) {
     this.setState({ optionsVisible: false });
     this.props.onClick(index);

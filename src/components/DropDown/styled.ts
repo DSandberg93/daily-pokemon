@@ -1,5 +1,8 @@
 import styled, { css } from 'styled-components';
 
+const TRANSITION_DURATION = 150;
+const TRANSITION_DELAY = 75;
+
 export const DropDownContainer = styled.div<{right?: boolean}>`
   position: absolute;
   margin: 10px;
@@ -24,9 +27,9 @@ export const DropDownHeader = styled.button<{optionsVisible: boolean}>`
   background-color: rgba(256, 256, 256, .5);
   border: 1px solid grey;
   border-radius: 15px 15px ${(props) => !props.optionsVisible ? '15px 15px' : '0 0'};
-  transition: border-radius 250ms;
+  transition: border-radius ${TRANSITION_DURATION}ms;
   ${(props) => !props.optionsVisible && css`
-    transition-delay: 150ms;
+    transition-delay: ${TRANSITION_DELAY}ms;
   `}
   backdrop-filter: blur(5px);
 
@@ -43,7 +46,7 @@ export const DropDownHeader = styled.button<{optionsVisible: boolean}>`
     height: 100%;
 
     .fa-angle-down {
-      transition: transform 250ms;
+      transition: transform ${TRANSITION_DURATION}ms;
       margin: auto;
       ${(props) => props.optionsVisible && css`
         transform: scaleY(-1);
@@ -65,9 +68,9 @@ export const DropDownOptions = styled.div<{visible: boolean}>`
   ${(props) => props.visible && 'border-bottom: 1px solid grey;'}
   border-left: 1px solid grey;
   border-right: 1px solid grey;
-  transition: 250ms;
+  transition: ${TRANSITION_DURATION}ms;
   ${(props) => props.visible && css`
-    transition-delay: 150ms;
+    transition-delay: ${TRANSITION_DELAY}ms;
   `}
   height: 81px;
   transform: scaleY(${(props) => props.visible ? '1' : '0'});
