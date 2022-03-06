@@ -11,7 +11,7 @@ import VersionController from '../VersionController';
 
 const App = () => {
   return (
-    <AppContainer>
+    <AppContainer className="full-height">
       <Switch>
         <Route
           path="/daily-pokemon/:version?"

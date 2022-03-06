@@ -4,7 +4,7 @@ import PokemonImage from 'components/PokemonImage';
 import { PokemonContainerProps as IProps, PokemonContainerState as IState, TDate } from './types';
 import { PContainer } from './styled';
 
-class PokemonContainer extends Component<IProps, IState> {
+class PokemonCardContainer extends Component<IProps, IState> {
   constructor (props: IProps) {
     super(props);
     this.state = {
@@ -116,4 +116,4 @@ class PokemonContainer extends Component<IProps, IState> {
   }
 }
 
-export default PokemonContainer;
+export default PokemonCardContainer;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import PokemonContainer from 'containers/PokemonContainer';
+import PokemonCardContainer from 'containers/PokemonCard/v1';
 import Landing from 'pages/Landing';
 import DropDown from 'components/DropDown';
 import { VersionControllerProps as IProps } from './types';
@@ -9,11 +9,11 @@ const VersionController = ({ pokemonList, match, history }: IProps) => {
   const versions = ['v1', 'v2'];
   const { params: { version } } = match;
   return (
-    <div>
+    <div className="full-height">
       <DropDown
         right
         options={versions}
-        value={version || 'v1'}
+        value={version || 'v2'}
         onClick={(versionIndex: number) => {
           if (version !== versions[versionIndex]) {
             history.push(`/daily-pokemon/${versions[versionIndex]}`);
@@ -22,12 +22,12 @@ const VersionController = ({ pokemonList, match, history }: IProps) => {
       />
       <Switch>
         <Route
-          path={['/daily-pokemon/v1', '/daily-pokemon']}
+          path={'/daily-pokemon/v1'}
           exact
-          render={() => <PokemonContainer pokemonList={pokemonList} />}
+          render={() => <PokemonCardContainer pokemonList={pokemonList} />}
         />
         <Route
-          path={'/daily-pokemon/v2'}
+          path={['/daily-pokemon/v2', '/daily-pokemon']}
           exact
           render={() => <Landing pokemonList={pokemonList} />}
         />
