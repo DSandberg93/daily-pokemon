@@ -1,20 +1,26 @@
 import React, { useState } from 'react';
 import { Wrapper, ExpandedCardCover } from './styled';
 import PokemonCard from 'containers/PokemonCard';
+import pokemonList from 'pokemonList.json';
+
+const { initial_date, list } = pokemonList;
+const initialDate = new Date(initial_date.year, initial_date.month - 1, initial_date.day);
+const FULL_DAY = 24 * 60 * 60 * 1000;
+const differenceToday = Math.floor(Date.now() / FULL_DAY) - Math.floor(initialDate.valueOf() / FULL_DAY);
 
 const PokemonGrid = () => {
   const [currentPokemon, setCurrentPokemon] = useState<number>();
+  const pokemonElements: JSX.Element[] = [];
+  for (let i = 0; i < 7; i++) {
+    const number = list[(differenceToday - i) % list.length];
+    pokemonElements.push(<PokemonCard key={number} primary={i === 0} number={number} onClick={() => setCurrentPokemon(number)} />);
+  }
+
   return (
     <div>
       <h1>Daily Pokemon</h1>
       <Wrapper>
-        <PokemonCard primary number={123} onClick={() => setCurrentPokemon(123)}  />
-        <PokemonCard number={321} onClick={() => setCurrentPokemon(321)} />
-        <PokemonCard number={456} onClick={() => setCurrentPokemon(456)} />
-        <PokemonCard number={654} onClick={() => setCurrentPokemon(654)} />
-        <PokemonCard number={789} onClick={() => setCurrentPokemon(789)} />
-        <PokemonCard number={879} onClick={() => setCurrentPokemon(879)} />
-        <PokemonCard number={147} onClick={() => setCurrentPokemon(147)} />
+        {pokemonElements}
       </Wrapper>
       <ExpandedCardCover
         className="expanded-card-cover"

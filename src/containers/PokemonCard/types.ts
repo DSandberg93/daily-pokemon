@@ -16,6 +16,8 @@ export type TPokemonResponse = {
     },
   }[],
   id: string,
+  height: any,
+  weight: any,
 };
 
 export type TPokemonSpeciesResponse= {

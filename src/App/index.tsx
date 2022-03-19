@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import pokemonList from 'pokemonList.json';
 import { AppContainer } from './styled';
-import VersionController from '../VersionController';
+import VersionController from '../containers/VersionController';
 
 const App = () => {
   return (

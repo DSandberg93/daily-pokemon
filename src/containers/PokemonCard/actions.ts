@@ -8,6 +8,8 @@ export async function fetchPokemon (number: number): Promise<TPokemonResponse> {
     name,
     types,
     id,
+    height,
+    weight,
   };
 }
 

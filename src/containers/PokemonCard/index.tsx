@@ -5,9 +5,10 @@ import { PokemonCardContainer } from './styled';
 
 const PokemonCard: React.FC<IProps> = ({ number, onClick, expanded, primary }) => {
   const [pokemon, setPokemon] = useState<TPokemon>();
+  const [species, setSpecies] = useState<any>();
   useEffect(() => {
     fetchPokemon(number).then((result) => setPokemon({ ...pokemon, ...result}));
-    fetchPokemonSpecies(number).then((result) => console.log(result));
+    fetchPokemonSpecies(number).then((result) => setSpecies(result));
   }, []);
 
   if (!pokemon) return <div/>;
