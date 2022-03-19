@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
-import App from './core/App';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import theme from 'themes/default';
+import './index.css';
+import App from './App';
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </Router>,
+  document.getElementById('root'),
+  );
